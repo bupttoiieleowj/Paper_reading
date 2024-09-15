@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="figures/Label.jpg" alt="LoRA" width="600"><br>
+  <img src="figures/Label.jpg" alt="LoRA" width="300"><br>
 </div></br>
 
 
