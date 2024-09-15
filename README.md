@@ -1,6 +1,6 @@
-<h1 style="display: flex; justify-content: space-between; align-items: center;">
+<div align="center">
   <img src="figures/Label.jpg" alt="标签" style="display: block; margin: auto; width: 300px; height: 200px;" />
-</h1>
+</div>
 
 # LLM/MLLM论文讨论内容整理
 将接触到的部分科研讨论话题整理如下，以供日常科研参考
