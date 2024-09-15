@@ -1,6 +1,6 @@
 <h1 style="display: flex; justify-content: space-between; align-items: center;">
   <span>LLM/MLLM论文讨论内容整理</span>
-  <img src="figures/Label.jpg" alt="标签" style="width: 100px; height: 100px;" />
+  <img src="figures/Label.jpg" alt="标签" style="width: 300px; height: 200px;" />
 </h1>
 将接触到的部分科研讨论话题整理如下，以供日常科研参考
 
