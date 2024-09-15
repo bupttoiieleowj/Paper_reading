@@ -56,13 +56,13 @@ Coming Soon...
 
 > 现阶段，多模态幻觉可被分为以下几类：
 
-- 1.Category(类别幻觉):模型“发现”了图中不存在的物体
+> - 1.Category(类别幻觉):模型“发现”了图中不存在的物体
 
-- 2.Attribute(属性幻觉):模型对于图中的物体的属性(属性包括，形状，颜色，数量等)有着错误的理解
+> - 2.Attribute(属性幻觉):模型对于图中的物体的属性(属性包括，形状，颜色，数量等)有着错误的理解
 
-- 3.Relation(关系幻觉):模型对于图中物体的关系没有正确理解。例如，模型将茶几和沙发的关系理解为茶几放在沙发上
+> - 3.Relation(关系幻觉):模型对于图中物体的关系没有正确理解。例如，模型将茶几和沙发的关系理解为茶几放在沙发上
 
-更多基础知识可见于[(参考综述)](https://arxiv.org/abs/2404.18930)
+> 更多基础知识可见于[(参考综述)](https://arxiv.org/abs/2404.18930)
 
 <font size=4><center><b> 论文列表 </b> </center></font>
 
@@ -173,7 +173,7 @@ Coming Soon...
   <img src="figures/LLM_efficient_inference.png" alt="LLM_efficient_inference" width="500"><br>
 </div></br>
 
-更多基础知识可见于[(参考综述)](https://arxiv.org/abs/2404.14294)
+> 更多基础知识可见于[(参考综述)](https://arxiv.org/abs/2404.14294)
 
 <font size=4><center><b> 论文列表 </b> </center></font>
 
