@@ -1,5 +1,5 @@
 <h1 style="display: flex; justify-content: space-between; align-items: center;">
-  <img src="figures/Label.jpg" alt="标签" style="width: 300px; height: 200px;" />
+  <img src="figures/Label.jpg" alt="标签" style="display: block; margin: auto; width: 300px; height: 200px;" />
 </h1>
 
 # LLM/MLLM论文讨论内容整理
