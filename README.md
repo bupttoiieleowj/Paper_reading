@@ -1,3 +1,8 @@
+<div align="center">
+  <img src="figures/Label.jpg" alt="LoRA" width="1100"><br>
+</div></br>
+
+
 # LLM/MLLM论文讨论内容整理
 将接触到的部分科研讨论话题整理如下，以供日常科研参考
 
@@ -106,7 +111,6 @@ Coming Soon...
 | **Scaling laws for neural language models** [[paper]](arxiv.org/abs/2001.08361) | Scaling Laws | OpenAI技术报告 | 2020-01-23 |
 | **Training Compute-Optimal Large Language Models** [[paper]](https://arxiv.org/abs/2203.15556) | 有关大模型参数量，数据量和计算量的Scaling Laws | NIPS2022 | 2022-03-29 |
 | **Scaling Laws with Vocabulary: Larger Models Deserve Larger Vocabularies** [[paper]](https://arxiv.org/abs/2407.13623) [[project]](https://github.com/sail-sg/scaling-with-vocab) | 有关大模型词表的Scaling Laws | arxiv | 2024-07-18 |
-
 | **D-CPT Law: Domain-specific Continual Pre-Training Scaling Law for Large Language Models** [[paper]](https://arxiv.org/abs/2406.01375) | Continual Pre-Training的Scaling Laws | arxiv | 2024-06-03 |
 | **Observational Scaling Laws and the Predictability of Language Model Performance** [[paper]](https://arxiv.org/abs/2405.10938) [[project]](https://github.com/ryoungj/ObsScaling)| 在多个Model Family，多个Benchmark上总结的通用Scaling Laws | arxiv | 2024-05-17 |
 
