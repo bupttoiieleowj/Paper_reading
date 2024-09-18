@@ -291,4 +291,16 @@ The weather today is bright with a slight breeze, making it ideal for a walk in 
 
 
 ## 大模型架构
-Coming Soon...
+> 目前大模型的主流架构均参考Transformer实现。然而，Transformer的架构设计本身存在不足。比如，Transformer架构内注意力机制的计算复杂度过高，会限制其在长文本场景下的应用。当前，部分工作（如Mamba）尝试从模型架构出发，缓解这一问题。
+
+<font size=4><center><b> 论文列表 </b> </center></font>
+
++ **话题:Mamba模型：状态空间模型的前世今生**
+
+| 标题 | 类型 | 会议  | 日期 |
+| ------ | :---: | :---: | :---: |
+| **Mamba: Linear-Time Sequence Modeling with Selective State Spaces** [[paper]](https://arxiv.org/abs/2312.00752)[[project]](https://github.com/state-spaces/mamba) | 大模型架构 | arxiv | 2023-12-01 |
+| **Jamba: A Hybrid Transformer-Mamba Language Model** [[paper]](https://arxiv.org/abs/2403.19887)[[project]](https://www.ai21.com/jamba) | 大模型架构 | arxiv | 2024-03-28 |
+| **Jamba-1.5: Hybrid Transformer-Mamba Models at Scale** [[paper]](https://arxiv.org/abs/2408.12570)[[project]](https://huggingface.co/ai21labs) | 大模型架构 | arxiv | 2024-08-22 |
+
+
