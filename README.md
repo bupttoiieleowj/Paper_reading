@@ -223,6 +223,8 @@ Coming Soon...
 
 > 基于大模型的表格智能技术包含多个方向，比如通过提示大模型(Prompting)的方式完成表格任务，训练专门理解表格数据的大模型(Training)等。本部分将总结并展示各个方向下的部分论文
 
+> 更多文献可见于[Awesome-Tabular-LLMs](https://github.com/SpursGoZmy/Awesome-Tabular-LLMs)
+
 <font size=4><center><b> 论文列表 </b> </center></font>
 
 + **话题:面向表格智能的Agent技术**
