@@ -35,6 +35,7 @@
 - [大模型幻觉](#大模型幻觉)
 
 ### [大模型文本的处理与对齐](#大模型文本的处理与对齐)
+- [大模型的表格处理](#大模型的表格处理)
 - [大模型的长文本处理](#大模型的长文本处理)
 - [大模型的人类偏好对齐](#大模型的人类偏好对齐)
 - [大模型文本水印技术](#大模型文本水印技术)
@@ -216,6 +217,23 @@ Coming Soon...
 
 ## 大模型的文本处理与对齐
 ### 大模型的表格处理
+表格作为一种结构化文本内容，被广泛应用于存储实际生产中的各项重要数据信息。为了获取规模庞大又极富价值的表格数据，工业界开始逐步推动表格智能技术的发展。表格智能（Table Intelligence）技术旨在通过自动理解、处理和分析表格数据来满足不同的用户需求。表格智能会涉及到多种任务，比如最传统的表格问答、和数据库密切相关的NL2SQL、表格处理（增删改查）、高阶数据分析（BI需求）等。在这些技术中，基于大模型的表格智能技术是当前的关注热点。
+
+基于大模型的表格智能技术包含多个方向，比如通过提示大模型(Prompting)的方式完成表格任务，训练专门理解表格数据的大模型(Training)等。本部分将总结并展示各个方向下的部分论文
+
+<font size=4><center><b> 论文列表 </b> </center></font>
+
++ **话题:面向表格智能的Agent技术**
+
+| 标题 | 类型 | 会议  | 日期 |
+| ------ | :---: | :---: | :---: |
+| **API-Assisted Code Generation for Question Answering on Varied Table Structures** [[paper]](https://arxiv.org/abs/2310.14687) | 针对多种表格结构的Prompt方法 | EMNLP2023 | 2023-10-23 |
+| **TAP4LLM: Table Provider on Sampling, Augmenting, and Packing Semi-structured Data for Large Language Model Reasoning** [[paper]](https://arxiv.org/abs/2312.09039) | 考虑了长表格场景的表格Prompt处理方法 | arxiv | 2023-12-14 |
+| **SheetCopilot: Bringing Software Productivity to the Next Level through Large Language Models** [[paper]](https://arxiv.org/abs/2305.19308) [[project]](https://github.com/BraveGroup/SheetCopilot) | 首个处理Excel表格的Agent框架 | NIPS2023 | 2023-05-30 |
+| **SheetAgent: Towards A Generalist Agent for Spreadsheet Reasoning and Manipulation via Large Language Models** [[paper]](https://arxiv.org/abs/2403.03636) | 关注多步推理表格任务的Agent框架 | ICML2024 | 2024-03-06 |
+
+
+
 
 ### 大模型的长文本处理
 Coming Soon...
@@ -224,7 +242,49 @@ Coming Soon...
 Coming Soon...
 
 ### 大模型文本水印技术
-Coming Soon...
+
+近年来，大语言模型在自然语言处理领域取得显著进展，但其快速生成文本的能力也带来了**信息传播**和**知识产权**方面的挑战。文本水印技术通过**嵌入可识别的标记**来实现**内容追踪**和**来源归属**，是解决大语言模型滥用问题的有效方法。
+
+---
+`来自ChatGPT的例子`
+
+
+在生成式文本中嵌入水印的技术往往隐蔽且复杂，通常不会对文本的表面含义产生显著影响。因此，我可以通过简单的例子演示可能的差异，但需要注意的是，实际的水印嵌入和检测通常需要更复杂的算法。
+
+### 示例 1：没有嵌入水印的文本
+
+```plaintext
+The weather today is sunny with a slight breeze, perfect for a walk in the park.
+```
+
+### 示例 2：嵌入水印的文本
+
+```plaintext
+The weather today is bright with a slight breeze, making it ideal for a walk in the park.
+```
+
+### 解释：
+- **无水印文本**（示例 1）：完全自然生成的文本，没有经过任何特殊处理。
+- **有水印文本**（示例 2）：在不改变整体语义的前提下，某些词语被替换。例如，`sunny` 被替换为 `bright`，`perfect` 被替换为 `ideal`。这些微小的变化可以被特定的水印算法识别，帮助确定该文本是否源自特定模型。
+---
+
+> 更多基础知识可见于[(参考综述)](https://arxiv.org/abs/2312.07913)
+
+> 更多文本水印工具可见于[(MarkLLM)](https://github.com/THU-BPM/MarkLLM)
+
+<font size=4><center><b> 论文列表 </b> </center></font>
+
++ **话题:大语言模型的文本水印**
+
+| 标题 | 类型 | 会议  | 日期 |
+| ------ | :---: | :---: | :---: |
+| **CodeMark: Imperceptible Watermarking for Code Datasets against Neural Code Completion Models** [[paper]](https://arxiv.org/abs/2308.14401) | 文本水印 | FSE2023 | 2023-08-28 |
+| **A Watermark for Large Language Models** [[paper]](https://arxiv.org/abs/2301.10226)[[project]](https://github.com/jwkirchenbauer/lm-watermarking) | 大模型文本水印 | ICML2023 | 2023-01-24 |
+| **Towards Codable Watermarking for Injecting Multi-bits Information to LLMs** [[paper]](https://arxiv.org/abs/2307.15992)[[project]](https://github.com/lancopku/codable-watermarking-for-llm) | 大模型文本水印 | ICLR2024 | 2023-07-29 |
+| **UNBIASED WATERMARK FOR LARGE LANGUAGE MODELS** [[paper]](https://arxiv.org/abs/2310.10669)[[project]](https://github.com/xiaoniu-578fa6bff964d005/UnbiasedWatermark) | 大模型文本水印 | **ICLR2024 Spotlight** | 2023-09-22 |
+| **SemStamp: A Semantic Watermark with Paraphrastic Robustness for Text Generation** [[paper]](https://arxiv.org/abs/2310.03991)[[project]](https://github.com/bohanhou14/SemStamp) | 大模型文本水印 | NAACL2024 | 2023-10-06 |
+| **Watermarks in the Sand: Impossibility of Strong Watermarking for Generative Models** [[paper]](https://arxiv.org/abs/2311.04378)[[project]](https://hanlin-zhang.com/impossibility-watermarks/) | 大模型文本水印 | ICML2024 | 2023-11-07 |
+
 
 ## 大模型架构
 Coming Soon...
