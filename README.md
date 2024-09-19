@@ -2,7 +2,7 @@
   <img src="figures/Label.jpg" alt="标签" style="display: block; margin: auto; width: 400px; height: 200px;" />
 </div>
 
-# LLM/MLLM论文讨论内容整理
+<h2 align="center"> <a>LLM/MLLM论文讨论内容整理</a></h2>
 将接触到的部分科研讨论话题整理如下，以供日常科研参考
 
 ---
@@ -40,6 +40,9 @@
 - [大模型的人类偏好对齐](#大模型的人类偏好对齐)
 - [大模型文本水印技术](#大模型文本水印技术)
 
+### [大模型安全相关](#大模型安全相关)
+- [可信大模型推荐系统]
+
 ### [大模型架构](#大模型架构)
 
 ---
@@ -67,7 +70,7 @@ Coming Soon...
 
 <font size=4><center><b> 论文列表 </b> </center></font>
 
-+ **话题:多模态幻觉**
++ **🔥话题:多模态幻觉**
 
 | 标题 | 类型 | 会议  | 日期 |
 | ------ | :---: | :---: | :---: |
@@ -137,7 +140,7 @@ Coming Soon...
 
 <font size=4><center><b> 论文列表 </b> </center></font>
 
-+ **话题:复用和组合LoRA模组 for few/zero shots learning**
++ **🔥话题:复用和组合LoRA模组 for few/zero shots learning**
 
 
 | 标题 | 类型 | 会议  | 日期 |
@@ -147,6 +150,17 @@ Coming Soon...
 | **LoraHub: Efficient Cross-Task Generalization via Dynamic LoRA Composition** [[paper]](https://arxiv.org/abs/2307.13269)[[project]](https://huggingface.co/lorahub) | LoRA组合, 多任务学习 | COLM2024 | 2023-07-25 |
 | **Towards Modular LLMs by Building and Reusing a Library of LoRAs** [[paper]](https://arxiv.org/abs/2405.11157)| LoRA组合, 多任务学习 | ICML2024 | 2024-05-18 |
 | **Learning to Route Among Specialized Experts for Zero-Shot Generalization** [[paper]](https://arxiv.org/abs/2402.05859) [[project]](https://github.com/r-three/phatgoose)| LoRA组合, 多任务学习 | ICML2024 | 2024-02-08 |
+
++ **🔥话题:PEFT与MoE的结合：Mixture of LoRA Experts**
+
+| 标题 | 类型 | 会议  | 日期 |
+| ------ | :---: | :---: | :---: |
+| **LoRAMoE: Alleviate World Knowledge Forgetting in Large Language Models via MoE-Style Plugin** [[paper]](https://arxiv.org/abs/2312.09979)[[project]](https://github.com/Ablustrund/LoRAMoE) | LoRA+MoE缓解灾难性遗忘 | ACL2024 | 2023-12-15 |
+| **Higher Layers Need More LoRA Experts** [[paper]](https://arxiv.org/abs/2402.08562)[[project]](https://github.com/GCYZSL/MoLA) | LoRA+MoE探究专家冗余和专家数量分配问题 | arxiv | 2024-02-13 |
+| **Mixture of LoRA Experts** [[paper]](https://arxiv.org/abs/2404.13628) | LoRA+MoE探究更好地组合多个训练好的LoRA | ICLR2024 | 2024-04-21 |
+| **Mixture of Cluster-conditional LoRA Experts for Vision-language Instruction Tuning** [[paper]](https://arxiv.org/abs/2312.12379) [[project]](https://gyhdog99.github.io/projects/mocle/) | LoRA+MoE缓解多模态大模型指令调优的多任务数据冲突问题 | arxiv | 2023-12-19 |
+| **LLaVA-MoLE: Sparse Mixture of LoRA Experts for Mitigating Data Conflicts in Instruction Finetuning MLLMs** [[paper]](https://arxiv.org/abs/2401.16160) | LoRA+MoE缓解多模态大模型指令调优的多任务数据冲突问题 | arxiv | 2024-01-29 |
+
 
 
 ### 大模型显存高效训练
@@ -178,7 +192,7 @@ Coming Soon...
 
 <font size=4><center><b> 论文列表 </b> </center></font>
 
-+ **话题:使用超网络生成PEFT模块(涉及内容归属：数据层优化技术)**
++ **🔥话题:使用超网络生成PEFT模块(涉及内容归属：数据层优化技术)**
 > + **话题简介**:超网络（Hypernetworks）表示用于产生网络参数的网络。LLM推理速度受限于冗长的指令和少样本示例。用超网络为instruction/few-shot demonstration生成PEFT模块,则无需每次处理输入prompt。（需注意，此话题下的技术可以按多种理论视角解读，既可以视为一种能增益大模型推理效率的soft prompt技术，也可以视为一种参数高效的大模型优化方法。）
 
 | 标题 | 类型 | 会议  | 日期 |
@@ -188,7 +202,7 @@ Coming Soon...
 | **HyperTuning: Toward Adapting Large Language Models without Back-propagation** [[paper]](https://arxiv.org/abs/2211.12485)| 大模型参数高效训练 | ICML2023 | 2022-11-22 |
 | **HINT: Hypernetwork Instruction Tuning for Efficient Zero- & Few-Shot Generalisation** [[paper]](https://arxiv.org/abs/2212.10315)[[project]](https://github.com/allenai/hyper-task-descriptions) | 大模型推理高效 | ACL2023 | 2022-12-20 |
 
-+ **话题:从稀疏性角度看LLM推理加速(涉及内容归属：模型层优化技术，系统层优化技术)**
++ **🔥话题:从稀疏性角度看LLM推理加速(涉及内容归属：模型层优化技术，系统层优化技术)**
 
 | 标题 | 类型 | 会议  | 日期 |
 | ------ | :---: | :---: | :---: |
@@ -216,7 +230,7 @@ Coming Soon...
 
 <font size=4><center><b> 论文列表 </b> </center></font>
 
-+ **话题:LLM的幻觉分析、常识理解与指令微调分析**
++ **🔥话题:LLM的幻觉分析、常识理解与指令微调分析**
 
 | 标题 | 类型 | 会议  | 日期 |
 | ------ | :---: | :---: | :---: |
@@ -241,7 +255,7 @@ Coming Soon...
 
 <font size=4><center><b> 论文列表 </b> </center></font>
 
-+ **话题:面向表格智能的Agent技术**
++ **🔥话题:面向表格智能的Agent技术**
 
 | 标题 | 类型 | 会议  | 日期 |
 | ------ | :---: | :---: | :---: |
@@ -292,7 +306,7 @@ The weather today is bright with a slight breeze, making it ideal for a walk in 
 
 <font size=4><center><b> 论文列表 </b> </center></font>
 
-+ **话题:大语言模型的文本水印**
++ **🔥话题:大语言模型的文本水印**
 
 | 标题 | 类型 | 会议  | 日期 |
 | ------ | :---: | :---: | :---: |
@@ -304,12 +318,31 @@ The weather today is bright with a slight breeze, making it ideal for a walk in 
 | **Watermarks in the Sand: Impossibility of Strong Watermarking for Generative Models** [[paper]](https://arxiv.org/abs/2311.04378)[[project]](https://hanlin-zhang.com/impossibility-watermarks/) | 大模型文本水印 | ICML2024 | 2023-11-07 |
 
 
+## 大模型安全相关
+
+### 可信大模型推荐系统
+
+> 近期的相关工作将大模型引入推荐系统，并通过**特征工程**、**特征编码**、**打分排序**和**流程控制**来提升推荐系统的表现。然而，大模型可能为推荐系统带来的安全风险（如鲁棒性不足、偏见等）也随之增加，这需要引起学界和业界更多的关注。
+
+<font size=4><center><b> 论文列表 </b> </center></font>
+
++ **🔥话题:可信大模型推荐系统**
+
+| 标题 | 类型 | 会议  | 日期 |
+| ------ | :---: | :---: | :---: |
+| **Stealthy Attack on Large Language Model based Recommendation** [[paper]](https://arxiv.org/abs/2402.14836)[[project]](https://github.com/CRIPAC-DIG/RecTextAttack) | 大模型推荐系统安全&鲁棒 | ACL2024 | 2024-02-18 |
+| **Item-side Fairness of Large Language Model-based Recommendation System** [[paper]](https://arxiv.org/abs/2402.15215)[[project]](https://github.com/JiangM-C/IFairLRS) | 大模型推荐系统公平 | WWW2024 | 2024-02-23 |
+| **RecExplainer: Aligning Large Language Models for Explaining Recommendation Models** [[paper]](https://arxiv.org/abs/2311.10947)[[project]](https://github.com/microsoft/RecAI) | 大模型推荐系统可解释性 | SIGKDD2024 | 2023-11-18 |
+
+
+
+
 ## 大模型架构
 > 目前大模型的主流架构均参考Transformer实现。然而，Transformer的架构设计本身存在不足。比如，Transformer架构内注意力机制的计算复杂度过高，会限制其在长文本场景下的应用。当前，部分工作（如Mamba）尝试从模型架构出发，缓解这一问题。
 
 <font size=4><center><b> 论文列表 </b> </center></font>
 
-+ **话题:Mamba模型：状态空间模型的前世今生**
++ **🔥话题:Mamba模型：状态空间模型的前世今生**
 
 | 标题 | 类型 | 会议  | 日期 |
 | ------ | :---: | :---: | :---: |
