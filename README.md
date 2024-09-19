@@ -2,7 +2,7 @@
   <img src="figures/Label.jpg" alt="标签" style="display: block; margin: auto; width: 400px; height: 200px;" />
 </div>
 
-<h2 align="center" style="font-size: 36px;"> 
+<h2 align="center" style="font-size: 50px;"> 
   <a>LLM/MLLM论文讨论内容整理</a>
 </h2>
 
