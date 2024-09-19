@@ -2,9 +2,9 @@
   <img src="figures/Label.jpg" alt="标签" style="display: block; margin: auto; width: 400px; height: 200px;" />
 </div>
 
-<h2 align="center" style="font-size: 50px;"> 
+<h1 align="center" style="font-size: 50px;"> 
   LLM/MLLM论文讨论内容整理
-</h2>
+</h1>
 
 将接触到的部分科研讨论话题整理如下，以供日常科研参考
 
