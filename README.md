@@ -2,7 +2,10 @@
   <img src="figures/Label.jpg" alt="标签" style="display: block; margin: auto; width: 400px; height: 200px;" />
 </div>
 
-<h2 align="center"> <a>LLM/MLLM论文讨论内容整理</a></h2>
+<h2 align="center" style="font-size: 36px;"> 
+  <a>LLM/MLLM论文讨论内容整理</a>
+</h2>
+
 将接触到的部分科研讨论话题整理如下，以供日常科研参考
 
 ---
@@ -41,7 +44,7 @@
 - [大模型文本水印技术](#大模型文本水印技术)
 
 ### [大模型安全相关](#大模型安全相关)
-- [可信大模型推荐系统]
+- [可信大模型推荐系统](#可信大模型推荐系统)
 
 ### [大模型架构](#大模型架构)
 
