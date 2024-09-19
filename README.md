@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="figures/Label.jpg" alt="标签" style="display: block; margin: auto; width: 350px; height: 200px;" />
+  <img src="figures/Label.jpg" alt="标签" style="display: block; margin: auto; width: 400px; height: 200px;" />
 </div>
 
 # LLM/MLLM论文讨论内容整理
