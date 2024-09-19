@@ -213,7 +213,21 @@ Coming Soon...
 Coming Soon...
 
 ### 大模型幻觉
-Coming Soon...
+
+<font size=4><center><b> 论文列表 </b> </center></font>
+
++ **话题:LLM的幻觉分析、常识理解与指令微调分析**
+
+| 标题 | 类型 | 会议  | 日期 |
+| ------ | :---: | :---: | :---: |
+| **On Large Language Models' Hallucination with Regard to Known Facts** [[paper]](https://arxiv.org/abs/2403.20009) | LLM幻觉分析 | NAACL2024 | 2024-03-29 |
+| **Knowing What LLMs DO NOT Know: A Simple Yet Effective Self-Detection Method** [[paper]](https://arxiv.org/abs/2310.17918) | LLM幻觉分析 | NAACL2024 | 2023-10-27 |
+| **R-Tuning: Instructing Large Language Models to Say 'I Don't Know'** [[paper]](https://arxiv.org/abs/2311.09677) | LLM幻觉分析 | NAACL2024 | 2023-11-16 |
+| **ChatGPT is a Knowledgeable but Inexperienced Solver: An Investigation of Commonsense Problem in Large Language Models** [[paper]](https://arxiv.org/abs/2303.16421) | LLM常识理解 | COLING2024 | 2023-03-29 |
+| **Say What You Mean! Large Language Models Speak Too Positively about Negative Commonsense Knowledge** [[paper]](https://arxiv.org/abs/2305.05976) [[project]](https://github.com/jiangjiechen/uncommongen) | LLM常识理解 | ACL2023 | 2023-05-10 |
+| **Understanding the Capabilities and Limitations of Large Language Models for Cultural Commonsense** [[paper]](https://arxiv.org/abs/2405.04655) | LLM常识理解 | NAACL2024 | 2024-05-07 |
+| **From Language Modeling to Instruction Following: Understanding the Behavior Shift in LLMs after Instruction Tuning** [[paper]](https://arxiv.org/abs/2310.00492) [[project]](https://github.com/JacksonWuxs/Interpret_Instruction_Tuning_LLMs) | LLM指令微调 | NAACL2024 | 2023-09-30 |
+
 
 ## 大模型的文本处理与对齐
 ### 大模型的表格处理
