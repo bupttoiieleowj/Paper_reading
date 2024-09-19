@@ -3,7 +3,7 @@
 </div>
 
 <h2 align="center" style="font-size: 50px;"> 
-  <a>LLM/MLLM论文讨论内容整理</a>
+  LLM/MLLM论文讨论内容整理
 </h2>
 
 将接触到的部分科研讨论话题整理如下，以供日常科研参考
